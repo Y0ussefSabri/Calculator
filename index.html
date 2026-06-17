@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+    <h1> Welcome to calculator!</h1>
+    <p> Enter your numbers to get a good computation!</p>
+    <form>
+        <input type="number" name="first_num" id="first_num" placeholder="first num ">
+        <input type="number" name="second_num" id="second_num" placeholder="second_num">
+        <div class="operations">
+        <input type="radio" name="operation" id="add" value="+">
+        <label for="add">+</label>
+        <input type="radio" name="operation" id="sub" value="-">
+        <label for="sub">-</label>
+        <input type="radio" name="operation" id="multi" value="*">
+        <label for="multi">*</label>
+        <input type="radio" name="operation" id="div" value="/">
+        <label for="div">/</label>
+        </div>
+        <button type="button" onclick="compute()">Compute</button>
+    </form>
+<p id="result"> Result</p>
+</div>
+</body>
+
+<script src="index.js"></script>
+</html>
