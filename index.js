@@ -13,6 +13,6 @@ function compute()
     document.getElementById("result").textContent = firstNum * secondNum;
     else if(selectOperation == '/')
     document.getElementById("result").textContent = firstNum / secondNum;
-    
+       
 
 }
