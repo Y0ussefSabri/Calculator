@@ -14,4 +14,5 @@ function compute()
     else if(selectOperation == '/')
     document.getElementById("result").textContent = firstNum / secondNum;
     
+
 }
